@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto da Trilha de CSS da DIO, onde criamos um layout semelhante ao do Youtube usando CSS Grid.">
+    <meta name="keywords" content="Grid, CSS Grid, DIO">
+    <meta name="author" content="Natalia Julia Curti">
+    <title>Desafio 3 - DIO - Clone do Youtube</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__div1">
+            <img src="assets/images/menu.svg" alt="Símbolo do Menu Hamburguer" title="Menu">
+            <img src="assets/images/youtube 1.svg" alt="Símbolo do Youtube" title="Youtube">
+        </div>
+        <div class="header__div2">
+            <input type="search" name="busca" placeholder="Search">
+            <button type="button">
+                <img src="assets/images/search.svg" alt="Símbolo de uma lupa, indicando a busca">
+            </button>
+        </div>
+        <div class="header__div3">
+            <img src="assets/images/video.svg" alt="Símbolo de uma câmera de vídeo" title="Criar">
+            <img src="assets/images/bell.svg" alt="Símbolo de um sino, indicando as notificações" title="Notificações">
+            <img src="assets/images/Avatar.svg" alt="Meu avatar" title="Meu Perfil">
+        </div>
+    </header>
+    <main class="conteudo">
+        <section class="menu-lateral">
+            <nav>
+                <ul>
+                    <li>
+                        <img src="assets/images/home.svg" alt="Símbolo de uma casa, indicando a Home" title="Ínicio">
+                        <a href="#" target="_blank" class="menu-lateral__inicio">Ínicio</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/compass.svg" alt="Símbolo explorar" title="Explorar">
+                        <a href="#" target="_blank">Explorar</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/youtube.svg" alt="Símbolo do Youtube" title="Inscrições">
+                        <a href="#" target="_blank">Inscrições</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/disc.svg" alt="Símbolo de um disco" title="YouTube Music">
+                        <a href="#" target="_blank">YouTube Music</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/thumbs-up.svg" alt="Símbolo polegar para cima" title="Vídeos que gostei">
+                        <a href="#" target="_blank">Vídeos que gostei</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/clock.svg" alt="Símbolo de um relógio" title="Assistir mais tarde">
+                        <a href="#" target="_blank">Assistir mais tarde</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/download.svg" alt="Símbolo de download" title="Downloads">
+                        <a href="#" target="_blank">Downloads</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/film.svg" alt="Símbolo de filme" title="Filmes">
+                        <a href="#" target="_blank">Filmes</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/book.svg" alt="Símbolo de um livro" title="Aprender">
+                        <a href="#">Aprender</a>
+                    </li>
+                    <li>
+                        <img src="assets/images/award.svg" alt="Símbolo de uma medalha" title="Esportes">
+                        <a href="#">Esportes</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="conteudo-principal">
+            <div class="container">
+                <div class="container-video">
+                    <img src="assets/images/dados.svg" alt="Capa vídeo ciência de dados Unimed BH">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+                            <p>2,1 mil visualizações</p>
+                            <p>Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/scrum.svg" alt="Capa vídeo sobre Scrum">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Scrum Talks</h2>
+                            <p>1,6 mil visualizações</p>
+                            <p>Transmitido há 3 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/machine.svg" alt="Capa vídeo sobre Machine Learning">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Machine Learning Avançado - Fast Track</h2>
+                            <p>1,7 mil visualizações</p>
+                            <p>Transmitido há 4 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/project.svg" alt="Capa vídeo sobre Projetos">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Global Skills #2 - Project Planning</h2>
+                            <p>2,5 mil visualizações</p>
+                            <p>Transmitido há 5 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/python.svg" alt="Capa vídeo sobre Python">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Como aprender a programar Python do ZERO</h2>
+                            <p>3,5 mil visualizações</p>
+                            <p>Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/dados.svg" alt="Capa vídeo ciência de dados Unimed BH">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+                            <p>2,1 mil visualizações</p>
+                            <p>Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/scrum.svg" alt="Capa vídeo sobre Scrum">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Scrum Talks</h2>
+                            <p>1,6 mil visualizações</p>
+                            <p>Transmitido há 3 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/machine.svg" alt="Capa vídeo sobre Machine Learning">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Machine Learning Avançado - Fast Track</h2>
+                            <p>1,7 mil visualizações</p>
+                            <p>Transmitido há 4 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/project.svg" alt="Capa vídeo sobre Projetos">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Global Skills #2 - Project Planning</h2>
+                            <p>2,5 mil visualizações</p>
+                            <p>Transmitido há 5 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/python.svg" alt="Capa vídeo sobre Python">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Como aprender a programar Python do ZERO</h2>
+                            <p>3,5 mil visualizações</p>
+                            <p>Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/dados.svg" alt="Capa vídeo ciência de dados Unimed BH">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+                            <p>2,1 mil visualizações</p>
+                            <p>Transmitido há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-video">
+                    <img src="assets/images/scrum.svg" alt="Capa vídeo sobre Scrum">
+                    <div class="container-video__info">
+                        <img src="assets/images/Channel Avatar.svg" alt="Logo Canal DIO">
+                        <div>
+                            <h2>Scrum Talks</h2>
+                            <p>1,6 mil visualizações</p>
+                            <p>Transmitido há 3 dias</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
